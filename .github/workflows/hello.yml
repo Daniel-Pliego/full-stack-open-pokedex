@@ -3,12 +3,20 @@ name: Hello World!
 on:
   push:
     branches:
-      - master
       - main
 
 jobs:
   hello_world_job:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Say hello
-        run: echo "Hello World!"
+        run: |
+          echo "Hello World!"
+
+      - name: Run date
+        run: |
+          date
+
+      - name: Run ls -l
+        run: |
+          ls -l
