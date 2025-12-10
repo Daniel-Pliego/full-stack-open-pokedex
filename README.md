@@ -14,5 +14,5 @@ Start by running `npm install` inside the project folder
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
 
-# Other repository
-https://github.com/Daniel-Pliego/phonebook 
+# Related Repository
+This project is part of the Full Stack Open course. The backend phonebook application can be found here: [phonebook repository](https://github.com/Daniel-Pliego/phonebook)
